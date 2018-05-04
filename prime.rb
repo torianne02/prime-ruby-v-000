@@ -1,5 +1,5 @@
 def prime?(number)
-  if number <= 1
+  if number <= 1 # accounts for negative numbers
     return false
   end
   n = 2
